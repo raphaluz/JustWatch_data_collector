@@ -6,7 +6,33 @@ __pycache__/
 # C extensions
 *.so
 
-# Distribution / packaging
+# Distribution / p# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Scraped data
+data/*
+!data/.gitkeep
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ChromeDriver
+drivers/*
+!drivers/.gitkeepackaging
 .Python
 build/
 develop-eggs/
@@ -153,6 +179,34 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Scraped data
+data/*
+!data/.gitkeep
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ChromeDriver
+drivers/*
+!drivers/.gitkeep
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
